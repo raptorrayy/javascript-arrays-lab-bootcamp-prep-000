@@ -28,3 +28,6 @@ function prependKitten(){
   return newKittens
 }
 
+function removeLastKitten(){
+  const newKittens = kittens.slice(0)
+}
